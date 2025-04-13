@@ -1,0 +1,12 @@
+{
+  "name": "qariin",
+  "version": "0.0.0",
+  "description": "Sebuah aplikasi mushaf digital dengan pemutaran audio per ayat",
+  "author": "Salman <salmantok.dev@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmantok/qariin.git"
+  },
+  "homepage": "https://salmantok.github.io/qariin"
+}
