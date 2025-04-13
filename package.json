@@ -1,6 +1,6 @@
 {
   "name": "qariin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Sebuah aplikasi mushaf digital dengan pemutaran audio per ayat",
   "author": "Salman <salmantok.dev@gmail.com>",
   "license": "MIT",
