@@ -1,0 +1,45 @@
+<div class="max-w-4xl mx-auto relative">
+            <h1 class="text-3xl font-bold mb-2 text-center">
+                Qariin
+                <span class="text-base text-gray-500">(Teman Dekat)</span>
+            </h1>
+            <h2 class="text-2xl font-semibold mb-6 text-center">
+                القرآن الكريم
+            </h2>
+
+            <!-- Selector Surah dan Tombol Putar -->
+            <div
+                class="sticky top-0 z-30 bg-gray-100 py-4 flex flex-col sm:flex-row justify-between items-center gap-4 mb-4"
+            >
+                <select
+                    id="surah-select"
+                    class="w-full sm:w-auto p-2 border rounded text-left"
+                ></select>
+
+                <button
+                    id="play-surah"
+                    class="bg-green-500 text-white px-4 py-2 rounded"
+                >
+                    Putar Surah
+                </button>
+            </div>
+
+            <!-- Daftar Ayat -->
+            <div
+                id="ayah-container"
+                class="space-y-4 text-xl leading-loose bg-white p-4 rounded shadow max-h-[70vh] overflow-y-auto mb-20"
+            ></div>
+
+            <!-- Tombol Ulangi Ayat -->
+            <label
+                for="repeat-toggle"
+                class="fixed bottom-14 right-6 bg-white border px-4 py-2 rounded shadow flex items-center gap-2 z-50 cursor-pointer"
+            >
+                <input
+                    type="checkbox"
+                    id="repeat-toggle"
+                    class="form-checkbox"
+                />
+                <span>Ulangi Ayat</span>
+            </label>
+        </div>
